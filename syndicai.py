@@ -1,5 +1,5 @@
 def __init__(self, config):
-    self.model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
+    self.model = torch.hub.load('./', 'best.pt', pretrained=True)
 
 def predict(self, payload):
         """
